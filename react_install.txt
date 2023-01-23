@@ -1,0 +1,52 @@
+npx create-react-app your-project-name-here
+
+npm run start
+
+npm install bootstrap
+import 'bootstrap/dist/css/bootstrap.css'
+
+npm install react-router-dom
+
+{index.js}
+import { BrowserRouter } from 'react-router-dom';
+{ inside root.render() }
+<React.StrictMode>
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+</React.StrictMode>
+
+npm install axios react-router-dom boostrap
+
+npm init -y
+npm i express
+nodemond server.js
+
+npm i express mongoose cors
+
+*************************
+import React from "react";
+
+const List = () => {
+    return (
+        <>
+            <h1>List of things to do:</h1>
+            <form>
+                <div className="item">
+                    <input type="text" name="newItem" onChange={(e) => setItem(e.target.value)} />
+                </div>
+                <div className="button">
+                    <button className="btn btn-primary">Add</button>
+                </div>
+                <div className="item">
+                    <input type="checkbox" name="item" id="item" onChange={(e) => setItem(e.target.checked)} />
+                </div>
+            </form>
+        </>
+    );
+}
+
+export default List;
+
+
+const {faker} = require("@faker-js/faker");

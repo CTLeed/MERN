@@ -1,0 +1,16 @@
+npx create-react-app your-project-name-here
+
+npm install axios react-router-dom bootstrap
+
+npm install axios react-router-dom @mui/material @emotion/react @emotion/styled @fontsource/roboto @mui/icons-material
+
+npm i express mongoose cors
+
+npm run start
+
+nodemon server.js
+
+
+https://m2.material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=FFFCF0&secondary.color=C49D44
+
+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
